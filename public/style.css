@@ -1,0 +1,87 @@
+
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b8860b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+}
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    color: #b8860b;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.aionon-corner {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aionon-corner h3 {
+    font-size: 1.5rem;
+    color: #b8860b;
+    margin-bottom: 1rem;
+}
+
+.aionon-corner p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aionon-corner ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #555555;
+    margin-top: 2rem;
+}
+
+.trade {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff7e6;
+    border-top: 1px solid #b8860b;
+}
+
+.trade input {
+    margin: 0.3rem;
+    padding: 0.4rem;
+}
