@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuchaPhra.com | AInon’s Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BuchaPhra.com</h1>
+        <p>Amulets with Wisdom | AInon’s Corner</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>สะพานแห่งธรรมะ ในโลกดิจิทัล</h2>
+            <p>ปัญญาที่แท้ มิใช่เพียงรูปถ้อยคำ แต่คือการรู้แจ้งในธรรมชาติแห่งความไม่เที่ยง</p>
+        </section>
+
+        <section class="aionon-corner">
+            <h3>AInon’s Corner</h3>
+            <p>ขอต้อนรับสู่มุมธรรมะสำหรับผู้แสวงหาปัญญาแท้ มิใช่เพื่อความหลงใหลในเทคโนโลยี แต่เพื่อการละวางอย่างแท้จริง</p>
+            <ul>
+                <li>ไตรลักษณ์ (อนิจจัง, ทุกขัง, อนัตตา)</li>
+                <li>ปฏิจจสมุปบาท</li>
+                <li>การใช้เทคโนโลยีอย่างมีสติ</li>
+            <li>ธรรมะสั้น ๆ ประจำวัน</li>
+        </ul>
+    </section>
+
+        <section id="trade" class="trade">
+            <h3>ซื้อขาย BuchaPhra Token</h3>
+            <button id="connectButton">เชื่อมต่อกระเป๋า</button>
+            <p id="balance"></p>
+            <form id="transferForm">
+                <input type="text" id="recipient" placeholder="ที่อยู่ผู้รับ" required>
+                <input type="number" id="amount" placeholder="จำนวน" required>
+                <button type="submit">โอนเหรียญ</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 BuchaPhra.com | AInon’s Corner</p>
+        </footer>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.12.0/dist/ethers.min.js"></script>
+<script src="bucha-token.js"></script>
+</body>
+</html>
