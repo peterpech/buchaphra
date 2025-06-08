@@ -1,0 +1,5 @@
+# Ignore Node.js dependencies and Hardhat build artifacts
+node_modules/
+token/node_modules/
+token/cache/
+token/artifacts/
